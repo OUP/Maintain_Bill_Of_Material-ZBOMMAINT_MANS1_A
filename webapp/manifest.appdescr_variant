@@ -1,0 +1,44 @@
+{
+  "fileName": "manifest",
+  "layer": "CUSTOMER_BASE",
+  "fileType": "appdescr_variant",
+  "reference": "pise.mi.plm.bom",
+  "id": "customer.ZBOMMAINT_MANS1_A",
+  "namespace": "apps/pise.mi.plm.bom/appVariants/customer.ZBOMMAINT_MANS1_A/",
+  "content": [
+    {
+      "changeType": "appdescr_app_setTitle",
+      "content": {},
+      "texts": {
+        "i18n": "i18n/i18n.properties"
+      }
+    },
+    {
+      "changeType": "appdescr_ui5_addNewModelEnhanceWith",
+      "content": {
+        "modelId": "i18n|sap.suite.ui.generic.template.ListReport|C_BillOfMaterialTP"
+      },
+      "texts": {
+        "i18n": "i18n/i18n.properties"
+      }
+    },
+    {
+      "changeType": "appdescr_ui5_addNewModelEnhanceWith",
+      "content": {
+        "modelId": "i18n|sap.suite.ui.generic.template.ObjectPage|C_BillOfMaterialTP"
+      },
+      "texts": {
+        "i18n": "i18n/i18n.properties"
+      }
+    },
+    {
+      "changeType": "appdescr_ui5_addNewModelEnhanceWith",
+      "content": {
+        "modelId": "i18n|sap.suite.ui.generic.template.ObjectPage|C_BillOfMaterialItemTP"
+      },
+      "texts": {
+        "i18n": "i18n/C_BillOfMaterialItemTP/i18n.properties"
+      }
+    }
+  ]
+}

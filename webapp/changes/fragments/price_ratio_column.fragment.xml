@@ -1,0 +1,26 @@
+<!-- Use stable and unique id's!-->
+<core:FragmentDefinition xmlns:core="sap.ui.core" xmlns="sap.ui.table" 	xmlns:m="sap.m">
+    <Column 
+        id="idColumnPriceRatio" 
+        width="8rem" 
+        hAlign="End" 
+        filterProperty="ZZ1_PRICE_RATIO_BMI" 
+        sortProperty="ZZ1_PRICE_RATIO_BMI">
+
+        <customData>
+            <core:CustomData 
+                id="idCustomDataPriceRatio"
+                key="p13nData"
+                value='\{"columnKey": "ZZ1_PRICE_RATIO_BMI", "columnIndex":"11"}' />
+        </customData>
+        
+        <m:Label 
+            id="idLabelPriceRatio" 
+            text="{/#C_BillOfMaterialItemTPType/ZZ1_PRICE_RATIO_BMI/@sap:label}" />
+        
+        <template>
+			<m:Text id="idTextPriceRatio" text="{ZZ1_PRICE_RATIO_BMI}" wrapping="false" />
+        </template>
+        
+	</Column>
+</core:FragmentDefinition>
